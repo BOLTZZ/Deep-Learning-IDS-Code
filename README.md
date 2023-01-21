@@ -52,4 +52,4 @@ To get a sense of the most impactful features per dataset, random forest classif
 A deep learning algorithm was created based of the CNN model since it performed the best. This algorithm only utilized the 9 features selected from the feature selection/feature comparision. Label encoding was performed on the categorical features to preserve the columns for the architecture of the model. This model was trained for 10 epochs with a batch size of 64. The accuracy and loss were obtained to evaluate the model.
 
 # Visualizing the Workflow
-![Visual of the workflow described.](https://github.com/BOLTZZ/Novel-Deep-Learning-IDS-Code/blob/main/Images/workflow.png)
+![Visual of the workflow described.](https://github.com/BOLTZZ/Deep-Learning-IDS-Code/blob/main/Images/Untitled%20drawing.png)
