@@ -27,7 +27,7 @@ Decision trees performed better than the logistic regression models.
 
 Random forest models were trained with 70 trees. This showed the difference between 1 tree (decision tree) and 70 trees (random forest). Random forests performed the best out of all the machine learning models.
 
-# Deep Learning Models
+# [Deep Learning Models](https://github.com/BOLTZZ/Novel-Deep-Learning-IDS-Code/tree/main/Deep%20Learning%20Models)
 3 different deep learning models (MLP, VAE, CNN) were utilized. Unique architecture was created for the MLP and CNN.
 
 <i>Multi-layer Perceptron:</i>
@@ -41,7 +41,8 @@ The VAE is a type of generative model, generating new data from the training dat
 <i>Convolutional Neural Network:</i>
 
 The CNN is a type of neural network effective at processing grid-like data, like images. The CNN was trained for 10 epochs with a batch size of 64. Accuracy and loss were obtained to evaluate the performance.
-# Feature Selection/Feature Comparision
+
+# [Feature Selection/Feature Comparision](https://github.com/BOLTZZ/Novel-Deep-Learning-IDS-Code/blob/main/Feature%20Selection%20Process.ipynb)
 To get a sense of the most impactful features per dataset, random forest classifcation was performed. Before, the classification, the categorical features were encoded with label encoding to preserve the original columns. In addittion, features were compared between datasets to search for common features.
 
 # Novel Deep Learning Algortihm
