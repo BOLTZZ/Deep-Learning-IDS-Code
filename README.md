@@ -47,7 +47,7 @@ The CNN is a type of neural network effective at processing grid-like data, like
 # [Feature Selection/Feature Comparision](https://github.com/BOLTZZ/Novel-Deep-Learning-IDS-Code/blob/main/Feature%20Selection%20Process.ipynb)
 To get a sense of the most impactful features per dataset, random forest classifcation was performed. Before, the classification, the categorical features were encoded with label encoding to preserve the original columns. In addittion, features were compared between datasets to search for common features.
 
-# [Final Deep Learning Algortihm](https://github.com/BOLTZZ/Novel-Deep-Learning-IDS-Code/blob/main/Deep%20Learning%20Models/Novel%20Deep%20Learning%20Algorithm.ipynb)
+# [Final Deep Learning Algortihm](https://github.com/BOLTZZ/Deep-Learning-IDS-Code/blob/main/Deep%20Learning%20Models/Deep%20Learning%20Algorithm.ipynb)
 
 A deep learning algorithm was created based of the CNN model since it performed the best. This algorithm only utilized the 9 features selected from the feature selection/feature comparision. Label encoding was performed on the categorical features to preserve the columns for the architecture of the model. This model was trained for 10 epochs with a batch size of 64. The accuracy and loss were obtained to evaluate the model.
 
