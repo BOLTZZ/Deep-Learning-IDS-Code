@@ -55,7 +55,199 @@ A deep learning algorithm was created based of the CNN model since it performed 
 ![Visual of the workflow described.](https://github.com/BOLTZZ/Deep-Learning-IDS-Code/blob/main/Images/Untitled%20drawing.png)
 
 # Table of Results
-| Model      | Accuracies |
-| ----------- | ------| |----- |
-| Header      | Title       |
-| Paragraph   | Text        |
+<table>
+  <tr>
+   <td rowspan="2" ><em>Model:</em>
+   </td>
+   <td colspan="2" ><em>Accuracies:</em>
+   </td>
+  </tr>
+  <tr>
+   <td><em>UNSW-NB15 Data:</em>
+   </td>
+   <td><em>Kyoto 2006+ Data:</em>
+   </td>
+  </tr>
+  <tr>
+   <td>Linear Regression
+   </td>
+   <td>98.62%
+   </td>
+   <td>97.60%
+   </td>
+  </tr>
+  <tr>
+   <td>Decision Tree
+   </td>
+   <td>98.76%
+   </td>
+   <td>99.13%
+   </td>
+  </tr>
+  <tr>
+   <td>Random Forest
+   </td>
+   <td>99.05%
+   </td>
+   <td>99.14%
+   </td>
+  </tr>
+  <tr>
+   <td>Multi-Layer Perceptron
+   </td>
+   <td>99.79%
+   </td>
+   <td>99.99%
+   </td>
+  </tr>
+  <tr>
+   <td>Variational Autoencoder
+   </td>
+   <td>97.08%
+   </td>
+   <td>38.19%
+   </td>
+  </tr>
+  <tr>
+   <td>Convolutional Neural Network
+   </td>
+   <td>99.81%
+   </td>
+   <td>99.99%
+   </td>
+  </tr>
+  <tr>
+   <td>Deep Learning Algorithm
+   </td>
+   <td>99.42%
+   </td>
+   <td>99.54%
+   </td>
+  </tr>
+</table>
+
+While, the Deep Learning Algorithm had a lower accuracy than the CNN and MLP, it only used 9 generalizable features. On the other hand, all the other models used 23 features for Kyoto 2006+ and 47 features for UNSW-NB15. Therefore, the Deep Learning Algorithm had an extremely high accuracy while still being generalizable.
+
+# Similar Features Used
+<table>
+  <tr>
+   <td><em>UNSW-NB15:</em>
+   </td>
+   <td><em>Type of Feature for UNSW-NB15:</em>
+   </td>
+   <td><em>Kyoto 2006+:</em>
+   </td>
+   <td><em>Type of Feature for Kyoto 2006+:</em>
+   </td>
+   <td><em>Description:</em>
+   </td>
+  </tr>
+  <tr>
+   <td>srcip
+   </td>
+   <td>Categorical
+   </td>
+   <td>Source_IP_Address
+   </td>
+   <td>Categorical
+   </td>
+   <td>Source IP address.
+   </td>
+  </tr>
+  <tr>
+   <td>sport
+   </td>
+   <td>Numerical
+   </td>
+   <td>Source_Port_Number
+   </td>
+   <td>Numerical
+   </td>
+   <td>Source port number.
+   </td>
+  </tr>
+  <tr>
+   <td>dstip
+   </td>
+   <td>Categorical
+   </td>
+   <td>Destination_IP_Address
+   </td>
+   <td>Categorical 
+   </td>
+   <td>Destination IP address.
+   </td>
+  </tr>
+  <tr>
+   <td>dsport
+   </td>
+   <td>Numerical
+   </td>
+   <td>Destination_Port_Number
+   </td>
+   <td>Numerical
+   </td>
+   <td>Destination port number.
+   </td>
+  </tr>
+  <tr>
+   <td>proto
+   </td>
+   <td>Categorical
+   </td>
+   <td>Protocol
+   </td>
+   <td>Categorical
+   </td>
+   <td>Transaction protocol.
+   </td>
+  </tr>
+  <tr>
+   <td>dur
+   </td>
+   <td>Numerical
+   </td>
+   <td>Duration
+   </td>
+   <td>Numerical
+   </td>
+   <td>Total duration of connection.
+   </td>
+  </tr>
+  <tr>
+   <td>sbytes
+   </td>
+   <td>Numerical
+   </td>
+   <td>Source bytes
+   </td>
+   <td>Numerical
+   </td>
+   <td>Source to destination transaction bytes.
+   </td>
+  </tr>
+  <tr>
+   <td>dbytes
+   </td>
+   <td>Numerical
+   </td>
+   <td>Destination bytes
+   </td>
+   <td>Numerical
+   </td>
+   <td>Destination to source transaction bytes.
+   </td>
+  </tr>
+  <tr>
+   <td>service
+   </td>
+   <td>Categorical
+   </td>
+   <td>Service
+   </td>
+   <td>Categorical
+   </td>
+   <td>Connection’s service type (http, telnet, etc).
+   </td>
+  </tr>
+</table>
