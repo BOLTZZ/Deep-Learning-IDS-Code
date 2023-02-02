@@ -53,3 +53,9 @@ A deep learning algorithm was created based of the CNN model since it performed 
 
 # Visualizing the Workflow
 ![Visual of the workflow described.](https://github.com/BOLTZZ/Deep-Learning-IDS-Code/blob/main/Images/Untitled%20drawing.png)
+
+# Table of Results
+| Model      | Accuracies |
+| ----------- | ------| |----- |
+| Header      | Title       |
+| Paragraph   | Text        |
