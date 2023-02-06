@@ -27,7 +27,7 @@ Decision trees performed better than the logistic regression models.
 
 <i>Random Forest:</i>
 
-Random forest models were trained with 70 trees. This showed the difference between 1 tree (decision tree) and 70 trees (random forest). Random forests performed the best out of all the machine learning models.
+Random forest models were trained with 70 trees. Random forests performed the best out of all the machine learning models.
 
 # [Deep Learning Models](https://github.com/BOLTZZ/Novel-Deep-Learning-IDS-Code/blob/main/Deep%20Learning%20Models/Final%20Deep%20Learning%20Models.ipynb)
 3 different deep learning models (MLP, VAE, CNN) were utilized. Unique architecture was created for the MLP and CNN.
