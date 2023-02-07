@@ -1,7 +1,7 @@
 # Deep Learning IDS Code
 This is the code repository for my research project: "Creating an Effective Intrusion Detection System Using a Deep Learning Algorithm". Specifically, the code concerns the method section of my research.
 
-Preprint can be found [here]()
+Preprint can be found [here](https://doi.org/10.58445/rars.134)
 
 # Datasets
 The datasets used for this research project are [Kyoto 2006+](http://www.takakura.com/Kyoto_data/) and [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) datasets. Binary encoding was performed on the categorical features.
